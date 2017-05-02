@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>U Minh Ha</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">555594123</SimpleData>
+		<SimpleData name="WDPA_PID">555594123</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">U Minh Hạ</SimpleData>
+		<SimpleData name="DESIG">Vườn quốc gia</SimpleData>
+		<SimpleData name="DESIG_ENG">National Park</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">II</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">85.28</SimpleData>
+		<SimpleData name="GIS_AREA">93.5507798142811</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">2006</SimpleData>
+		<SimpleData name="GOV_TYPE">Government-delegated management</SimpleData>
+		<SimpleData name="OWN_TYPE">Not Reported</SimpleData>
+		<SimpleData name="MANG_AUTH">People's Committee of Ca Mau</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1874</SimpleData>
+		<SimpleData name="SUB_LOC">VN-59</SimpleData>
+		<SimpleData name="PARENT_ISO3">VNM</SimpleData>
+		<SimpleData name="ISO3">VNM</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>104.99407868000003,9.203634094000051 104.95920809100005,9.203310805000058 104.958247442000072,9.200006054000085 104.949864305000062,9.201027316000079 104.938747593000073,9.206607124000072 104.933972764000032,9.207870785000068 104.916760699000065,9.208124318000046 104.914651551000077,9.204023300000074 104.91337053400008,9.203958426000042 104.912783617000059,9.203946167000083 104.909744813000032,9.203698089000056 104.909684618000028,9.20959384300005 104.909651826000072,9.212800263000076 104.90964131100003,9.213708915000041 104.909626936000052,9.214743085000066 104.909611796000036,9.215831604000073 104.909566909000034,9.219070032000047 104.909573627000043,9.220987360000038 104.909491251000077,9.227283081000053 104.909259520000035,9.235483878000082 104.909245942000041,9.236621049000064 104.909235472000034,9.239987532000043 104.903263256000059,9.240052259000038 104.903277082000045,9.240555423000046 104.903085716000078,9.244983971000067 104.902790555000081,9.25147142700007 104.902694246000067,9.253071310000053 104.902675015000057,9.253661821000037 104.902646808000043,9.25467771700005 104.902608441000041,9.256057687000066 104.902553565000062,9.258772054000076 104.90266047700004,9.261753328000054 104.902084190000039,9.263677908000091 104.902542913000048,9.269094044000042 104.903197655000042,9.275964635000037 104.903228274000071,9.276285855000083 104.903361518000054,9.277459867000061 104.903364141000054,9.278300424000065 104.903366419000065,9.279028757000049 104.903369787000031,9.280163397000081 104.903356861000077,9.281032617000051 104.903371351000033,9.281032893000088 104.903371351000033,9.28103307300006 104.903400207000061,9.285877201000062 104.902466636000042,9.290554132000068 104.902253857000062,9.294877580000048 104.91597855100008,9.295682833000058 104.930987061000053,9.29505312100008 104.931092102000036,9.295048711000049 104.931067185000074,9.293077219000054 104.95573329900003,9.293138730000067 104.958884652000052,9.293170667000084 104.964621005000026,9.293321306000053 104.964765690000036,9.293321321000064 104.967619647000049,9.293321591000051 104.972809042000051,9.293322023000087 104.981640918000039,9.293189470000073 104.987619358000074,9.293083562000049 104.989127204000056,9.274590615000079 104.990086738000059,9.262743607000061 104.990218102000028,9.260697421000089 104.990601471000048,9.256577653000079 104.990836300000069,9.253869964000046 104.991050303000065,9.252193645000091 104.991148469000052,9.250406362000092 104.991859816000044,9.239334142000075 104.99374931400007,9.207262384000046 104.99400255200004,9.20446090900009 104.994076127000028,9.203662037000072 104.99407868000003,9.203634094000051</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

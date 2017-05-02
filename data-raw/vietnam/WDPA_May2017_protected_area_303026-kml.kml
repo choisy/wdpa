@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>Tram Chim</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">303026</SimpleData>
+		<SimpleData name="WDPA_PID">303026</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">Tràm Chim</SimpleData>
+		<SimpleData name="DESIG">Vườn quốc gia</SimpleData>
+		<SimpleData name="DESIG_ENG">National Park</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">II</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">73.13</SimpleData>
+		<SimpleData name="GIS_AREA">75.1628216025511</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">1998</SimpleData>
+		<SimpleData name="GOV_TYPE">Government-delegated management</SimpleData>
+		<SimpleData name="OWN_TYPE">State</SimpleData>
+		<SimpleData name="MANG_AUTH">People's Committee of Dong Thap</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1874</SimpleData>
+		<SimpleData name="SUB_LOC">VN-45</SimpleData>
+		<SimpleData name="PARENT_ISO3">VNM</SimpleData>
+		<SimpleData name="ISO3">VNM</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>105.59540720900003,10.747830089000047 105.611874034000039,10.729119258000082 105.608621097000025,10.725342252000075 105.608254453000029,10.724847113000067 105.608088686000031,10.724724106000053 105.600890094000079,10.716365307000046 105.599164939000048,10.713597563000064 105.596926152000037,10.711634708000076 105.58522842900004,10.696396138000068 105.567911885000058,10.673034173000076 105.564048942000056,10.672810956000092 105.493834786000036,10.682636358000082 105.493153104000044,10.686655631000065 105.491789753000035,10.69201447100005 105.482473537000033,10.72818463200008 105.489972247000026,10.739124075000063 105.485882217000039,10.758546247000083 105.488381811000068,10.768814951000081 105.490881369000078,10.774618864000047 105.499288917000058,10.777074257000038 105.511104793000072,10.759662295000055 105.515932940000027,10.752188163000085 105.516969436000068,10.750758529000052 105.523690081000041,10.741166213000042 105.525832382000033,10.73756895300005 105.528515240000047,10.733787662000054 105.534222216000046,10.724681691000058 105.536231936000036,10.721253047000062 105.538955234000071,10.716740924000078 105.540543883000055,10.713624027000037 105.542956145000062,10.709697427000037 105.544063360000052,10.707987198000069 105.544062293000081,10.707896780000056 105.545056935000048,10.705859334000081 105.551320067000063,10.695751707000056 105.556364207000058,10.695502420000082 105.566094295000028,10.716574429000048 105.577683161000039,10.732872444000066 105.59540720900003,10.747830089000047</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

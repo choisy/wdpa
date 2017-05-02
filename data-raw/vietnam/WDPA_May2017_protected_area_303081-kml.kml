@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sql_statement" id="sql_statement">
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="WDPAID" type="float"></SimpleField>
+	<SimpleField name="WDPA_PID" type="string"></SimpleField>
+	<SimpleField name="PA_DEF" type="string"></SimpleField>
+	<SimpleField name="ORIG_NAME" type="string"></SimpleField>
+	<SimpleField name="DESIG" type="string"></SimpleField>
+	<SimpleField name="DESIG_ENG" type="string"></SimpleField>
+	<SimpleField name="DESIG_TYPE" type="string"></SimpleField>
+	<SimpleField name="IUCN_CAT" type="string"></SimpleField>
+	<SimpleField name="INT_CRIT" type="string"></SimpleField>
+	<SimpleField name="MARINE" type="string"></SimpleField>
+	<SimpleField name="REP_M_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_M_AREA" type="float"></SimpleField>
+	<SimpleField name="REP_AREA" type="float"></SimpleField>
+	<SimpleField name="GIS_AREA" type="float"></SimpleField>
+	<SimpleField name="NO_TAKE" type="string"></SimpleField>
+	<SimpleField name="NO_TK_AREA" type="float"></SimpleField>
+	<SimpleField name="STATUS" type="string"></SimpleField>
+	<SimpleField name="STATUS_YR" type="int"></SimpleField>
+	<SimpleField name="GOV_TYPE" type="string"></SimpleField>
+	<SimpleField name="OWN_TYPE" type="string"></SimpleField>
+	<SimpleField name="MANG_AUTH" type="string"></SimpleField>
+	<SimpleField name="MANG_PLAN" type="string"></SimpleField>
+	<SimpleField name="VERIF" type="string"></SimpleField>
+	<SimpleField name="METADATAID" type="int"></SimpleField>
+	<SimpleField name="SUB_LOC" type="string"></SimpleField>
+	<SimpleField name="PARENT_ISO3" type="string"></SimpleField>
+	<SimpleField name="ISO3" type="string"></SimpleField>
+</Schema>
+<Folder><name>sql_statement</name>
+  <Placemark>
+	<name>U Minh Thuong</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sql_statement">
+		<SimpleData name="TYPE">Polygon</SimpleData>
+		<SimpleData name="WDPAID">303081</SimpleData>
+		<SimpleData name="WDPA_PID">303081</SimpleData>
+		<SimpleData name="PA_DEF">1</SimpleData>
+		<SimpleData name="ORIG_NAME">U Minh Thượng</SimpleData>
+		<SimpleData name="DESIG">Vườn quốc gia</SimpleData>
+		<SimpleData name="DESIG_ENG">National Park</SimpleData>
+		<SimpleData name="DESIG_TYPE">National</SimpleData>
+		<SimpleData name="IUCN_CAT">II</SimpleData>
+		<SimpleData name="INT_CRIT">Not Applicable</SimpleData>
+		<SimpleData name="MARINE">0</SimpleData>
+		<SimpleData name="REP_M_AREA">0</SimpleData>
+		<SimpleData name="GIS_M_AREA">0</SimpleData>
+		<SimpleData name="REP_AREA">80.38</SimpleData>
+		<SimpleData name="GIS_AREA">82.109516786536</SimpleData>
+		<SimpleData name="NO_TAKE">Not Applicable</SimpleData>
+		<SimpleData name="NO_TK_AREA">0</SimpleData>
+		<SimpleData name="STATUS">Designated</SimpleData>
+		<SimpleData name="STATUS_YR">2002</SimpleData>
+		<SimpleData name="GOV_TYPE">Government-delegated management</SimpleData>
+		<SimpleData name="OWN_TYPE">State</SimpleData>
+		<SimpleData name="MANG_AUTH">People's Committee of Kien Giang</SimpleData>
+		<SimpleData name="MANG_PLAN">Not Reported</SimpleData>
+		<SimpleData name="VERIF">State Verified</SimpleData>
+		<SimpleData name="METADATAID">1874</SimpleData>
+		<SimpleData name="SUB_LOC">VN-59</SimpleData>
+		<SimpleData name="PARENT_ISO3">VNM</SimpleData>
+		<SimpleData name="ISO3">VNM</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>105.111437844000079,9.522889693000081 105.086624528000073,9.544747113000085 105.050247679000051,9.579906202000075 105.075061581000057,9.663037515000042 105.133120043000076,9.626461898000059 105.126133506000031,9.592733125000052 105.11938796700008,9.55757561900009 105.111437844000079,9.522889693000081</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

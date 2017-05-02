@@ -1,0 +1,11 @@
+Package: wdpa
+Type: Package
+Title: Contains shape files from the WDPA project
+Version: 0.1.0
+Author: Marc Choisy
+Maintainer: Marc Choisy <marc.choisy@ird.fr>
+Description: Contains shape files from the WDPA project (www.wdpa.org). So far
+    contains only the 26 IUCN Category-II of Vietnam.
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
